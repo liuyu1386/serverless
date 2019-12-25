@@ -45,3 +45,7 @@ functions:
 #      name: my-serverless-service-bucket
 #  imports:
 #    - path: my_template.jinja
+second:
+handler: parking
+events:
+- http: path
